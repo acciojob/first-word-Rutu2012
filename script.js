@@ -1,12 +1,12 @@
 function firstWord(s) {
-  if (!str) return ""; 
+  if (!s) return ""; 
 
-    const spaceIndex = str.indexOf(" ");
+    const spaceIndex = s.indexOf(" ");
     if (spaceIndex === -1) {
-        return str; 
+        return s; 
     }
 
-    return str.substring(0, spaceIndex);
+    return s.substring(0, spaceIndex);
 }
 console.log(firstWord("see and stop"));
 console.log(firstWord("Hello World"));
