@@ -1,16 +1,16 @@
 function firstWord(s) {
-  if (!str) return ""; // handle empty string
+  if (!str) return ""; 
 
     const spaceIndex = str.indexOf(" ");
     if (spaceIndex === -1) {
-        return str; // no space found, return entire string
+        return str; 
     }
 
     return str.substring(0, spaceIndex);
 }
 console.log(firstWord("see and stop"));
 console.log(firstWord("Hello World"));
-}
+
 
 // Do not change the code below
 
